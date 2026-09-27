@@ -1,4 +1,4 @@
-package com.vijay.Authorization_server;
+package com.vijay.authserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

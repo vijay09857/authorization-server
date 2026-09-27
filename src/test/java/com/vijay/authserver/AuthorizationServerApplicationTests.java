@@ -1,4 +1,4 @@
-package com.vijay.Authorization_server;
+package com.vijay.authserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
