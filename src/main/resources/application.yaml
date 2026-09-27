@@ -1,13 +1,17 @@
 server:
   port: 8080
+
 spring:
   datasource:
-    url: jdbc:postgressql://localhost:5432/authdb
+    url: jdbc:postgresql://localhost:5432/authdb
     username: auth
     password: changeme
+    driver-class-name: org.postgresql.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
+
 app:
   jwt:
     issuer: https://auth.vijay.local
